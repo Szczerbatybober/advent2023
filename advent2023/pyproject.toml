@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "advent2023"
+version = "0.1.0"
+description = ""
+authors = ["Tomasz Woznica <tomasz_woznica@dell.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
